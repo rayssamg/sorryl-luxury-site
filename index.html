@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soryl Luxury</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Página de Entrada com imagem de fundo -->
+  <section class="intro" id="home">
+    <div class="intro-overlay">
+      <h1>Bem-vindo à Soryl Luxury</h1>
+      <p>Joias que expressam elegância, luxo e exclusividade.</p>
+      <a href="#catalogo" class="btn">Ver Catálogo</a>
+    </div>
+  </section>
+
+  <!-- Catálogo de Joias -->
+  <section class="catalogo" id="catalogo">
+    <h2>Nosso Catálogo</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="anel.jpg" alt="Anel de Ouro">
+        <div class="produto-info">
+          <h3>Anel de Ouro</h3>
+          <p>R$ 2.500</p>
+        </div>
+      </div>
+      <div class="produto">
+        <img src="joia.jpg" alt="Colar de Diamante">
+        <div class="produto-info">
+          <h3>Colar de Diamante</h3>
+          <p>R$ 4.900</p>
+        </div>
+      </div>
+      <div class="produto">
+        <img src="perolas.jpg" alt="Pulseira de Pérolas">
+        <div class="produto-info">
+          <h3>Pulseira de Pérolas</h3>
+          <p>R$ 1.800</p>
+        </div>
+      </div>
+      <div class="produto">
+        <img src="outras.jpg" alt="Outras opções">
+        <div class="produto-info">
+          <h3>Outras opções</h3>
+          <p>Entre em contato com um dos nossos atendentes!</p>
+        </div>
+      </div>
+
+      <!-- Adicione mais imagens abaixo copiando este bloco -->
+      <!--
+      <div class="produto">
+        <img src="URL_DA_NOVA_IMAGEM" alt="Nova Joia">
+        <div class="produto-info">
+          <h3>Nome da Joia</h3>
+          <p>R$ 0.000</p>
+        </div>
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- Atendimento ao Cliente -->
+  <section class="preferencias" id="preferencias">
+    <h2>Como podemos te ajudar?</h2>
+    <form id="formAtendimento">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required>
+
+      <label for="preferencia">Preferência de Produto:</label>
+      <select id="preferencia">
+        <option>Anéis</option>
+        <option>Colares</option>
+        <option>Pulseiras</option>
+        <option>Brincos</option>
+      </select>
+
+      <label for="tamanho">Tamanho da Joia (em cm ou número):</label>
+      <input type="text" id="tamanho" placeholder="Ex: 18, 22cm, M" required>
+
+      <label for="pagamento">Forma de Pagamento:</label>
+      <select id="pagamento" required>
+        <option>Pix</option>
+        <option>Cartão de Crédito</option>
+        <option>Cartão de Débito</option>
+        <option>Boleto Bancário</option>
+      </select>
+
+      <label for="contato">Contato (WhatsApp ou e-mail):</label>
+      <input type="text" id="contato" required>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Contato e redes sociais -->
+  <section class="contato">
+    <h2>Fale Conosco</h2>
+    <a href="https://wa.me/5599985019665" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://instagram.com/soryl.luxury" target="_blank"><i class="fab fa-instagram"></i></a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Soryl Luxury. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
